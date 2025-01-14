@@ -147,7 +147,7 @@ module "eks" {
       type      = "ingress",
     },
   }
-  cluster_version = "1.21"
+  cluster_version = "1.31"
   self_managed_node_groups = {
     self_managed_node_group = {
       block_device_mappings = {
